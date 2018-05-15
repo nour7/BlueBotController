@@ -14,7 +14,8 @@ import CoreBluetooth
  */
 struct BlueBotModel {
     /** Macbook CBUUID*/
-    static let MAC_CBUUID = CBUUID(string: "143CCD32-256B-4BF9-95B0-9D1E0AACC57E")
+     static let MAC_CBUUID = CBUUID(string: "12345678-111-222-333-AABBCCDDEEFF")
+    
     /** Robot service CBUUID */
     static let BOT_SERVICE_UUID = CBUUID(string: "F48DA104-D6B8-43C4-A719-3A03FEA55088")
     /** Robot Alert Characstertic CBUUID */
