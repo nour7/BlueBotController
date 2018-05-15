@@ -1,0 +1,173 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.blueBotManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 18,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 30,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 35,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 44,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/AppDelegate.swift",
+      "line": 48,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/BlueBotManager.swift",
+      "line": 19,
+      "symbol": "BlueBotManager.centralManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/BlueBotManager.swift",
+      "line": 21,
+      "symbol": "BlueBotManager.macPeripheral",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/BlueBotManager.swift",
+      "line": 23,
+      "symbol": "BlueBotManager.botService",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/BlueBotManager.swift",
+      "line": 25,
+      "symbol": "BlueBotManager.botPowerState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/BlueBotManager.swift",
+      "line": 28,
+      "symbol": "BlueBotManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/ConnectViewController.swift",
+      "line": 13,
+      "symbol": "ConnectViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/ConnectViewController.swift",
+      "line": 34,
+      "symbol": "ConnectViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/StartViewController.swift",
+      "line": 12,
+      "symbol": "StartViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/StartViewController.swift",
+      "line": 43,
+      "symbol": "StartViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/StopViewController.swift",
+      "line": 13,
+      "symbol": "StopViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/StopViewController.swift",
+      "line": 36,
+      "symbol": "StopViewController.STATUS_OFF",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/StopViewController.swift",
+      "line": 37,
+      "symbol": "StopViewController.STATUS_ON",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/StopViewController.swift",
+      "line": 38,
+      "symbol": "StopViewController.STATUS_ERROR",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/StopViewController.swift",
+      "line": 39,
+      "symbol": "StopViewController.STATUS_STUCK",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBotControl/BlueBotControl/StopViewController.swift",
+      "line": 80,
+      "symbol": "StopViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Nour/Projects/BlueBotControl"
+}
