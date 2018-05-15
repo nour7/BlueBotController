@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1405B60B20A3696600426B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405B60A20A3696600426B2F /* AppDelegate.swift */; };
-		1405B60D20A3696600426B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405B60C20A3696600426B2F /* ViewController.swift */; };
+		1405B60D20A3696600426B2F /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405B60C20A3696600426B2F /* ConnectViewController.swift */; };
 		1405B61020A3696600426B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1405B60E20A3696600426B2F /* Main.storyboard */; };
 		1405B61220A3696700426B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1405B61120A3696700426B2F /* Assets.xcassets */; };
 		1405B61520A3696700426B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1405B61320A3696700426B2F /* LaunchScreen.storyboard */; };
+		1405B61E20A3699B00426B2F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1405B61D20A3699B00426B2F /* CoreBluetooth.framework */; };
+		149112C620A8ED1F004B8FFE /* BlueBotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149112C520A8ED1F004B8FFE /* BlueBotManager.swift */; };
+		149112C820A8FA37004B8FFE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149112C720A8FA37004B8FFE /* StartViewController.swift */; };
+		149112CA20A8FA49004B8FFE /* StopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149112C920A8FA49004B8FFE /* StopViewController.swift */; };
+		149112CC20A961B5004B8FFE /* BlueBotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149112CB20A961B5004B8FFE /* BlueBotModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1405B60720A3696600426B2F /* BlueBotControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueBotControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1405B60A20A3696600426B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1405B60C20A3696600426B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1405B60C20A3696600426B2F /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		1405B60F20A3696600426B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1405B61120A3696700426B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1405B61420A3696700426B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1405B61620A3696700426B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1405B61D20A3699B00426B2F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		149112C520A8ED1F004B8FFE /* BlueBotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBotManager.swift; sourceTree = "<group>"; };
+		149112C720A8FA37004B8FFE /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		149112C920A8FA49004B8FFE /* StopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopViewController.swift; sourceTree = "<group>"; };
+		149112CB20A961B5004B8FFE /* BlueBotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBotModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1405B61E20A3699B00426B2F /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,7 @@
 			children = (
 				1405B60920A3696600426B2F /* BlueBotControl */,
 				1405B60820A3696600426B2F /* Products */,
+				1405B61C20A3699B00426B2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +67,25 @@
 			isa = PBXGroup;
 			children = (
 				1405B60A20A3696600426B2F /* AppDelegate.swift */,
-				1405B60C20A3696600426B2F /* ViewController.swift */,
+				1405B60C20A3696600426B2F /* ConnectViewController.swift */,
 				1405B60E20A3696600426B2F /* Main.storyboard */,
 				1405B61120A3696700426B2F /* Assets.xcassets */,
 				1405B61320A3696700426B2F /* LaunchScreen.storyboard */,
 				1405B61620A3696700426B2F /* Info.plist */,
+				149112C520A8ED1F004B8FFE /* BlueBotManager.swift */,
+				149112C720A8FA37004B8FFE /* StartViewController.swift */,
+				149112C920A8FA49004B8FFE /* StopViewController.swift */,
+				149112CB20A961B5004B8FFE /* BlueBotModel.swift */,
 			);
 			path = BlueBotControl;
+			sourceTree = "<group>";
+		};
+		1405B61C20A3699B00426B2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1405B61D20A3699B00426B2F /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1405B60D20A3696600426B2F /* ViewController.swift in Sources */,
+				1405B60D20A3696600426B2F /* ConnectViewController.swift in Sources */,
+				149112CA20A8FA49004B8FFE /* StopViewController.swift in Sources */,
+				149112C820A8FA37004B8FFE /* StartViewController.swift in Sources */,
+				149112C620A8ED1F004B8FFE /* BlueBotManager.swift in Sources */,
 				1405B60B20A3696600426B2F /* AppDelegate.swift in Sources */,
+				149112CC20A961B5004B8FFE /* BlueBotModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
