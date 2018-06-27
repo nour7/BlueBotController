@@ -22,4 +22,4 @@ didDiscoverCharacteristicsFor, didUpdateValueFor, didWriteValueFor]
 9. Detect alerts and read responses using didUpdateValueFor method
 10. Detect the response of write request using didWriteValueFor method
 
-![screen1](/c1.PNG) ![screen2](/c2.PNG) ![screen3](/c3.PNG)
+![screen1](/screens.png)
